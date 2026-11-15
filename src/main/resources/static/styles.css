@@ -73,12 +73,12 @@
 }
 
 /*On Hover*/
-.backButton.inner:hover:not(:disabled) {
+.backButton:hover:not(:disabled) {
     background-color: #e64747;
     transform: translateY(-1px);
 }
 /*On Click*/
-.backButton.inner:active:not(:disabled) {
+.backButton:active:not(:disabled) {
     background-color: #602626;
     transform: translateY(1px) scale(0.98);
 }
