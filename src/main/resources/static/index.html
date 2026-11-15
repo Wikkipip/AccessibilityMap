@@ -1,28 +1,20 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-    <title>Wheelchair Accessible Map</title>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Accessibility Map</title>
+	<link rel="icon" type="image/png" href="Assets/BuildingPin.png"></link>
 </head>
 <body>
-<h1>Full Campus Map</h1>
-<p>Click on each building to get a full map of the layout</p>
-<img src = "images/CampusMap.jpg" 
-alt="Campus Map" 
-width = "800" height ="700"
- usemap="#campus">
-
-<map name ="campus">
-
-    <area shape = "rect" 
-    coords = "35,593,239,687"
-    href = "Pearce.html"
-    alt="Pearce Building" >
-</map>
-
-
-
-
-
+	<div class="mapContainer">
+		<img src="Assets/CampusMap.png" class="map centralMap"></img>
+		<a href="pearce.html" class="mapPin" style="left: 17%; top: 83%;">
+			<img src="Assets/BuildingPin.png" class="mapPin"><img>
+		</a>
+		<a href="library.html" class="mapPin" style="left: 33%; top: 10%;">
+			<img src="Assets/BuildingPin.png" class="mapPin"><img>
+		</a>
+	</div>
 </body>
+</html>
