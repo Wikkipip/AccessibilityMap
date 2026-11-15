@@ -1,0 +1,21 @@
+{
+    "name":"Library",
+    "position":{"x":0.33,"y":0.10},
+    "doors":[
+        {
+            "direction":"BOTH",
+            "position":{"x":0.515,"y":0.1}
+        },
+        {
+            "direction":"BOTH",
+            "position":{"x":0.515,"y":0.67}
+        }
+    ],
+    "elevators":[
+        {
+            "position":{"x":0.41,"y":0.415}
+        }
+    ],
+    "ramps":[],
+    "wheelchairAreas":[]
+}

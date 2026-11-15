@@ -1,32 +1,33 @@
 {
     "name":"Pearce",
-    "position":null,
+    "position":{"x":0.17,"y":0.83},
     "doors":[
         {
-            "direction":"ENTRY",
-            "position":null
+            "direction":"BOTH",
+            "position":{"x":0.463,"y":0.15}
         },
         {
-            "direction":"EXIT",
-            "position":null
+            "direction":"BOTH",
+            "position":{"x":0.16,"y":0.55}
+        },
+        {
+            "direction":"BOTH",
+            "position":{"x":0.83,"y":0.55}
+        },
+        {
+            "direction":"BOTH",
+            "position":{"x":0.215,"y":0.15}
+        },
+        {
+            "direction":"BOTH",
+            "position":{"x":0.75,"y":0.15}
         }
     ],
     "elevators":[
         {
-            "position":null
+            "position":{"x":0.463,"y":0.4}
         }
     ],
-    "ramps":[
-        {"position":null}
-    ],
-    "wheelchairAreas":[
-        {
-            "motorized":true,
-            "position":null
-        },
-        {
-            "motorized":false,
-            "position":{"x":10.0,"y":20.0}
-        }
-    ]
+    "ramps":[],
+    "wheelchairAreas":[]
 }
